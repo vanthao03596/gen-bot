@@ -128,7 +128,7 @@ class AirDrop9Conversation extends Conversation
         $message = $teleName.', Now' . PHP_EOL .
         "🔹 Follow us on Twitter  <a href='https://twitter.com/GenesisFloki'>Twitter</a>, quote tweet pinned post & tag 3 friends." . PHP_EOL .
 
-        "Then submit your Twitter profile link:" . PHP_EOL .
+        "Then submit your Twitter profile link below the chat :" . PHP_EOL .
 
         "(Example: <a href='https://twitter.com/yourusername'>https://twitter.com/yourusername</a>". PHP_EOL.
         PHP_EOL .

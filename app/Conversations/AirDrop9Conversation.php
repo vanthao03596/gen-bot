@@ -36,40 +36,31 @@ class AirDrop9Conversation extends Conversation
 
         $teleName = $botUser->getFirstName().' '.$botUser->getLastName();
 
-        $message = 'Dear ' . $teleName . '! I am your friendly "Genesis Defi by Floki" Airdrop Bot.' . PHP_EOL .
+        $message = '🎁Airdrop: Genesis Defi by Floki - $GenF' . PHP_EOL .
             PHP_EOL .
-            'ℹ️ Genesis Defi by Floki - Symbol "GenF", New generation of multi-data decentralized finance, leading the new revolution of the decentralized finance movement. By combining the Big-data resource with tools to support storage (Staking), exchange cryptocurrency (DEX), the uniqueness of NFT.' . PHP_EOL .
+            '💰 Total Prize: 3000 $GenF ' . PHP_EOL .
+            "👨‍💼 Winner: Top 300  winners!" . PHP_EOL .
+            "📅Distribution: 1 week after airdrop end" . PHP_EOL .
             PHP_EOL .
-            "We are also doing our Pre-sale (Fairlaunch on Pinksale) at October 12th !" . PHP_EOL .
+            '👥To participate: quote tweet pinned post (10 points).' . PHP_EOL .
+            "1.Join Telegram Group " . PHP_EOL .
+            "<a href='https://t.me/GenesisDefibyFloki_Global'>https://t.me/GenesisDefibyFloki_Global</a>" . PHP_EOL .
             PHP_EOL .
-            "🌐 Website: <a href='https://genesisdefibyfloki.net'>https://genesisdefibyfloki.net</a>" . PHP_EOL .
-            PHP_EOL .
-            '📢 Airdrop Info: Total 15000 $BUSD +  $ "GenF" Token (For top 500 winners)' . PHP_EOL .
-            "💰 For joining: Get 20$" . PHP_EOL .
-            "💰 For each referral: Get 10$ in GenF  (Get tokens for each referral and up to 1,000 referrals.)" . PHP_EOL .
-            PHP_EOL .
-
-            "🗓 Airdrop will end on 18 th October & distribution begins." . PHP_EOL .
-            PHP_EOL .
-            "🔝 Top 1000 with most referrals and 4000 lucky participants will receive the airdrop." . PHP_EOL .
+            "2.Join Telegram Channel " . PHP_EOL .
+            "<a href='https://t.me/GenesisDefibyFloki_Ann'>https://t.me/GenesisDefibyFloki_Ann</a>" . PHP_EOL .
             PHP_EOL .
 
-            "Please complete the following tasks to be eligible for the airdrop." . PHP_EOL .
+            "3. Twitter : Retweet pinned tweet and tag 3 friends " . PHP_EOL .
+            "<a href='https://twitter.com/GenesisFloki'>https://twitter.com/GenesisFloki</a>" . PHP_EOL .
             PHP_EOL .
 
-            "🔹️ Join our <a href='https://t.me/GenesisDefibyFloki_Global'>Telegram Group (10 points)</a>" . PHP_EOL .
-            "🔹️ Join our <a href='https://t.me/GenesisDefibyFloki_Ann'>Telegram Channel (10 points)</a>" . PHP_EOL .
-            "🔹️ Follow us on <a href='https://twitter.com/GenesisFloki'>Twitter</a>, quote tweet pinned post (10 points)." . PHP_EOL.
-            "🔹️ Tag 3 friends on our twitter pinned post (5 points)" . PHP_EOL .
-            "🔹️ Submit your BSC BEP-20 wallet address." . PHP_EOL .
+            "4. Fill up your answer  " . PHP_EOL .
 
             PHP_EOL .
 
-            'Your personal referral link:' . PHP_EOL .
-           'https://t.me/GenesisDefi_Airdrop_Bot?start=' . $refCode . PHP_EOL .
-           PHP_EOL .
-
-           'Click "Submit my details" to submit your details to verify whether you completed all the tasks or not.';
+            "🔗Airdrop Link: <a href='https://twitter.com/GenesisFloki/status/1578801874228350976'>https://twitter.com/GenesisFloki/status/1578801874228350976</a>" . PHP_EOL .
+            PHP_EOL .
+            "🔝 ⏰ 20th Oct 11:00 AM (UTC) - 27 Oct 2 AM (UTC).";
 
         $question = Question::create($message)
             ->addButtons([

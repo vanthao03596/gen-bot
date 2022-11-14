@@ -36,31 +36,46 @@ class AirDrop9Conversation extends Conversation
 
         $teleName = $botUser->getFirstName().' '.$botUser->getLastName();
 
-        $message = '🎁Airdrop: Genesis Defi by Floki - $GenF' . PHP_EOL .
+        $message = 'ℹ️ Tate Socical :' . PHP_EOL .
+            'The freedom Social-Finance of Tate brothers & Fans. "Tate Social" is a Social-Fi with the application of blockchain technology and Web3 that we have heard a lot about in recent times !' . PHP_EOL .
             PHP_EOL .
-            '💰 Total Prize: 3000 $GenF ' . PHP_EOL .
-            "👨‍💼 Winner: Top 300  winners!" . PHP_EOL .
-            "📅Distribution: 1 week after airdrop end" . PHP_EOL .
-            PHP_EOL .
-            '👥To participate: quote tweet pinned post (10 points).' . PHP_EOL .
-            "1.Join Telegram Group " . PHP_EOL .
-            "<a href='https://t.me/GenesisDefibyFloki_Global'>https://t.me/GenesisDefibyFloki_Global</a>" . PHP_EOL .
-            PHP_EOL .
-            "2.Join Telegram Channel " . PHP_EOL .
-            "<a href='https://t.me/GenesisDefibyFloki_Ann'>https://t.me/GenesisDefibyFloki_Ann</a>" . PHP_EOL .
+            'Tate Social - $TOPG is also doing Pre-sale (Pinksale Fairlaunch) on November 18th ! ' . PHP_EOL .
             PHP_EOL .
 
-            "3. Twitter : Retweet pinned tweet and tag 3 friends " . PHP_EOL .
-            "<a href='https://twitter.com/GenesisFloki'>https://twitter.com/GenesisFloki</a>" . PHP_EOL .
+            'If you know previous projects about Tate Brothers like: Tate token has ATH 60x, or TOPG coin has ATH 30x?' . PHP_EOL .
+            'Tate Social - $TOPG will be a 100x project you don\'t want to miss in this 2022.' . PHP_EOL .
+            PHP_EOL .
+            "🌐 Website             : <a href='https://tate.social/'>https://tate.social/</a>" . PHP_EOL .
+            "🔖 Project details     : <a href='https://page.tate.social/'>https://page.tate.social/</a>" . PHP_EOL .
+            PHP_EOL .
+            '📢 Airdrop Info: Total 15000 $TOPG Token' . PHP_EOL .
+            PHP_EOL .            
+
+            '🏆 Task:       ➕  $10 worth of $TOPG for 1000 random participants each.' . PHP_EOL .
+            '👨‍👩‍👧 Referral:   ➕  $5000 worth of $TOPG for top 100 referrers.' . PHP_EOL .
             PHP_EOL .
 
-            "4. Fill up your answer  " . PHP_EOL .
-
+            "🗓 Airdrop will end on 24 th November & distribution begins 10 days after airdrop end" . PHP_EOL .
             PHP_EOL .
 
-            "🔗Airdrop Link: <a href='https://twitter.com/GenesisFloki/status/1578801874228350976'>https://twitter.com/GenesisFloki/status/1578801874228350976</a>" . PHP_EOL .
+            "Please complete the following tasks to be eligible for the airdrop." . PHP_EOL .
             PHP_EOL .
-            "🔝 ⏰ 20th Oct 11:00 AM (UTC) - 27 Oct 2 AM (UTC).";
+            
+            '🔹 Join our Telegram Group (10 points)' . PHP_EOL .
+            "<a href='https://t.me/TateSocial_TOPG_Ann'>https://t.me/TateSocial_TOPG_Ann</a>" . PHP_EOL .
+            "🔹 Join our Telegram Channel (10 points)" . PHP_EOL .
+            "<a href='https://t.me/Tatesocial_TOPG_Global'>https://t.me/Tatesocial_TOPG_Global</a>" . PHP_EOL .
+            '🔹 Follow us on Twitter, like, quote tweet pinned post "including hashtag #TateSocial #TOPGcoin #PresaleNov2022" (10 points). https://twitter.com/tatesocial_topg' . PHP_EOL . 
+            '🔹 Tag 5 friends "including hashtag #TateSocial #TOPGcoin #Nov2022" on our twitter pinned post (5 points)' . PHP_EOL .
+            '🔹 Submit your BSC BEP-20 wallet address.' . PHP_EOL . 
+            PHP_EOL .
+
+            'Your personal referral link:' . PHP_EOL .
+            'https://t.me/TateSocial_Airdrop_Bot?start=' . $refCode . PHP_EOL .
+            PHP_EOL .
+
+            'Click "Submit my details" to submit your details to verify whether you completed all the tasks or not.' . PHP_EOL .
+            "(Tate Social also have Active & shilling contest, check it out on our TG for joining)";
 
         $question = Question::create($message)
             ->addButtons([
@@ -88,8 +103,8 @@ class AirDrop9Conversation extends Conversation
         $teleName = $botUser->getFirstName().' '.$botUser->getLastName();
 
         $message = $teleName.', Now' . PHP_EOL .
-        "🔹 Join our <a href='https://t.me/GenesisDefibyFloki_Ann'>Telegram Channel.</a>" . PHP_EOL .
-        "🔹 Join our <a href='https://t.me/GenesisDefibyFloki_Global'>Telegram Group.</a>" . PHP_EOL;
+        "🔹 Join our <a href='https://t.me/TateSocial_TOPG_Ann'>Telegram Channel.</a>" . PHP_EOL .
+        "🔹 Join our <a href='https://t.me/Tatesocial_TOPG_Global'>Telegram Group.</a>" . PHP_EOL;
 
         $question = Question::create($message)
             ->addButtons([
@@ -117,7 +132,8 @@ class AirDrop9Conversation extends Conversation
         $teleName = $botUser->getFirstName().' '.$botUser->getLastName();
 
         $message = $teleName.', Now' . PHP_EOL .
-        "🔹 Follow us on Twitter  <a href='https://twitter.com/GenesisFloki'>Twitter</a>, quote tweet pinned post & tag 3 friends." . PHP_EOL .
+        '🔹 Follow us on Twitter, like, quote tweet pinned post "including hashtag #TateSocial #TOPGcoin #PresaleNov2022". https://twitter.com/tatesocial_topg' . PHP_EOL . 
+        '🔹 Tag 5 friends "including hashtag #TateSocial #TOPGcoin #Nov2022" on our twitter pinned post' . PHP_EOL .
 
         "Then submit your Twitter profile link below the chat :" . PHP_EOL .
 
@@ -216,10 +232,10 @@ class AirDrop9Conversation extends Conversation
         $message = "🥳 Congratulations! We'll verify your social task" . PHP_EOL .
             PHP_EOL.
             "🙏 Thank you for participating in our airdrop. Please do not leave any of our social media platforms." . PHP_EOL .
-            "<a href='https://genesisdefibyfloki.net/'>https://genesisdefibyfloki.net/</a>" . PHP_EOL .
+            "<a href='https://tate.social/'>https://tate.social/</a>" . PHP_EOL .
             PHP_EOL .
             'Your personal referral link:' . PHP_EOL .
-           'https://t.me/GenesisDefi_Airdrop_Bot?start=' . $refCode;
+           'https://t.me/TateSocial_Airdrop_Bot?start=' . $refCode;
 
         return $this->say($message, ['parse_mode' => 'HTML', 'disable_web_page_preview' => true]);
 

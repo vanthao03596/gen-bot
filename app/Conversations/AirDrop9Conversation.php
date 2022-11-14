@@ -36,7 +36,9 @@ class AirDrop9Conversation extends Conversation
 
         $teleName = $botUser->getFirstName().' '.$botUser->getLastName();
 
-        $message = 'ℹ️ Tate Socical :' . PHP_EOL .
+        $message =
+            '<img src="https://im5.ezgif.com/tmp/ezgif-5-6cac9ee5f6.gif"></img>' . PHP_EOL . 
+            'ℹ️ Tate Socical :' . PHP_EOL .
             'The freedom Social-Finance of Tate brothers & Fans. "Tate Social" is a Social-Fi with the application of blockchain technology and Web3 that we have heard a lot about in recent times !' . PHP_EOL .
             PHP_EOL .
             'Tate Social - $TOPG is also doing Pre-sale (Pinksale Fairlaunch) on November 18th ! ' . PHP_EOL .

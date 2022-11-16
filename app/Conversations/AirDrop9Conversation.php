@@ -65,7 +65,7 @@ class AirDrop9Conversation extends Conversation
             "<a href='https://t.me/TateSocial_TOPG_Ann'>https://t.me/TateSocial_TOPG_Ann</a>" . PHP_EOL .
             "🔹 Join our Telegram Channel (10 points)" . PHP_EOL .
             "<a href='https://t.me/Tatesocial_TOPG_Global'>https://t.me/Tatesocial_TOPG_Global</a>" . PHP_EOL .
-            '🔹 Follow us on Twitter, like, quote tweet pinned post "including hashtag #TateSocial #TOPGcoin #PresaleNov2022" (10 points). https://twitter.com/tatesocial_topg' . PHP_EOL . 
+            '🔹 Follow us on Twitter, like, quote tweet pinned post "including hashtag #TateSocial #TOPGcoin #PresaleNov2022" (10 points). https://twitter.com/TatesocialTopg' . PHP_EOL . 
             '🔹 Tag 5 friends "including hashtag #TateSocial #TOPGcoin #Nov2022" on our twitter pinned post (5 points)' . PHP_EOL .
             '🔹 Submit your BSC BEP-20 wallet address.' . PHP_EOL . 
             PHP_EOL .
@@ -132,7 +132,7 @@ class AirDrop9Conversation extends Conversation
         $teleName = $botUser->getFirstName().' '.$botUser->getLastName();
 
         $message = $teleName.', Now' . PHP_EOL .
-        '🔹 Follow us on Twitter, like, quote tweet pinned post "including hashtag #TateSocial #TOPGcoin #PresaleNov2022". https://twitter.com/tatesocial_topg' . PHP_EOL . 
+        '🔹 Follow us on Twitter, like, quote tweet pinned post "including hashtag #TateSocial #TOPGcoin #PresaleNov2022". https://twitter.com/TatesocialTopg' . PHP_EOL . 
         '🔹 Tag 5 friends "including hashtag #TateSocial #TOPGcoin #Nov2022" on our twitter pinned post' . PHP_EOL .
 
         "Then submit your Twitter profile link below the chat :" . PHP_EOL .

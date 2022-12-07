@@ -36,7 +36,8 @@ class AirDrop9Conversation extends Conversation
 
         $teleName = $botUser->getFirstName().' '.$botUser->getLastName();
 
-        $message = '🎁Airdrop: <b>SAFU Santa (SSanta)</b>' . PHP_EOL .
+        $message = "<a href='https://safusanta.xyz/images/logo-02.png'>&#8205;</a>" . PHP_EOL .
+            '🎁Airdrop: <b>SAFU Santa (SSanta)</b>' . PHP_EOL .
             PHP_EOL . 
             '💰 Total Prize: 5000 $SSanta' . PHP_EOL .
             '👨‍💼 Luckies Winner: Top 500 Winners' . PHP_EOL .

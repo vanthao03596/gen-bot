@@ -59,6 +59,7 @@ class AirDrop9Conversation extends Conversation
             PHP_EOL .
 
             '🔗Airdrop Link:' . PHP_EOL .
+            "<a href='https://t.me/SafusantaAirdropBot'>https://t.me/SafusantaAirdropBot</a>" . PHP_EOL .
             PHP_EOL .
 
             'Your personal referral link:' . PHP_EOL .

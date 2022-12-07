@@ -36,46 +36,33 @@ class AirDrop9Conversation extends Conversation
 
         $teleName = $botUser->getFirstName().' '.$botUser->getLastName();
 
-        $message = 'ℹ️ Tate Socical :' . PHP_EOL .
-            'The freedom Social-Finance of Tate brothers & Fans. "Tate Social" is a Social-Fi with the application of blockchain technology and Web3 that we have heard a lot about in recent times !' . PHP_EOL .
-            PHP_EOL .
-            'Tate Social - $TOPG is also doing Pre-sale (Pinksale Fairlaunch) on November 18th ! ' . PHP_EOL .
+        $message = '🎁Airdrop: <b>SAFU Santa (SSanta)</b>' . PHP_EOL .
+            PHP_EOL . 
+            '💰 Total Prize: 5000 $SSanta' . PHP_EOL .
+            '👨‍💼 Luckies Winner: Top 500 Winners' . PHP_EOL .
+            '👨‍💼 Top referrals : 5 NFTs' . PHP_EOL .
+            '📅Distribution: 10 days after airdrop end' . PHP_EOL .
             PHP_EOL .
 
-            'If you know previous projects about Tate Brothers like: Tate token has ATH 60x, or TOPG coin has ATH 30x?' . PHP_EOL .
-            'Tate Social - $TOPG will be a 100x project you don\'t want to miss in this 2022.' . PHP_EOL .
+            '👥To participate: quote tweet pinned post (10 points).' . PHP_EOL .
+            '1.Join Telegram Group (Need to complete captcha):' . PHP_EOL .
+            "<a href='https://t.me/SAFUSanta'>https://t.me/SAFUSanta</a>" . PHP_EOL .
             PHP_EOL .
-            "☣️ Website: <a href='https://tate.social/'>https://tate.social/</a>" . PHP_EOL .
-            "☣️Presale (Fairlaunch anyone can join early): <a href='https://www.pinksale.finance/launchpad/0x7F7eE1eA83CCcA9CCCC394a7637De4E2907c9CC2?chain=BSC'>https://www.pinksale.finance/launchpad/0x7F7eE1eA83CCcA9CCCC394a7637De4E2907c9CC2?chain=BSC</a>" . PHP_EOL .
+            "2.Join Telegram Channel :" . PHP_EOL .
+            "<a href='https://t.me/SAFUSanta_Channel'>https://t.me/SAFUSanta_Channel</a>" . PHP_EOL .
             PHP_EOL .
-            '📢 Airdrop Info: Total 15000 $TOPG Token' . PHP_EOL .
+            "3. Twitter : Like 3 tweets, Retweet pinned tweet, quote a tweet & comment something bullish about the project & tag 3 friends" . PHP_EOL .
+            "<a href='https://twitter.com/safusanta'>https://twitter.com/safusanta</a>" . PHP_EOL .
             PHP_EOL .            
 
-            '🏆 Task:       ➕  $10 worth of $TOPG for 1000 random participants each.' . PHP_EOL .
-            '👨‍👩‍👧 Referral:   ➕  $5000 worth of $TOPG for top 100 referrers.' . PHP_EOL .
+            "4. Fill up your answer" . PHP_EOL .
             PHP_EOL .
 
-            "🗓 Airdrop will end on 24 th November & distribution begins 10 days after airdrop end" . PHP_EOL .
-            PHP_EOL .
-
-            "Please complete the following tasks to be eligible for the airdrop." . PHP_EOL .
-            PHP_EOL .
-            
-            '🔹 Join our Telegram Group (10 points)' . PHP_EOL .
-            "<a href='https://t.me/TateSocial_TOPG_Ann'>https://t.me/TateSocial_TOPG_Ann</a>" . PHP_EOL .
-            "🔹 Join our Telegram Channel (10 points)" . PHP_EOL .
-            "<a href='https://t.me/Tatesocial_TOPG_Global'>https://t.me/Tatesocial_TOPG_Global</a>" . PHP_EOL .
-            '🔹 Follow us on Twitter, like, quote tweet pinned post(10 points). https://twitter.com/TatesocialTopg' . PHP_EOL . 
-            '🔹 Tag 5 friends on our twitter pinned post (5 points)' . PHP_EOL .
-            '🔹 Submit your BSC BEP-20 wallet address.' . PHP_EOL . 
+            '🔗Airdrop Link:' . PHP_EOL .
             PHP_EOL .
 
             'Your personal referral link:' . PHP_EOL .
-            'https://t.me/TateSocial_Airdrop_Bot?start=' . $refCode . PHP_EOL .
-            PHP_EOL .
-
-            'Click "Submit my details" to submit your details to verify whether you completed all the tasks or not.' . PHP_EOL .
-            "(Tate Social also have Active & shilling contest, check it out on our TG for joining)";
+            'https://t.me/SafusantaAirdropBot?start=' . $refCode . PHP_EOL;
 
         $question = Question::create($message)
             ->addButtons([
@@ -103,8 +90,8 @@ class AirDrop9Conversation extends Conversation
         $teleName = $botUser->getFirstName().' '.$botUser->getLastName();
 
         $message = $teleName.', Now' . PHP_EOL .
-        "🔹 Join our <a href='https://t.me/TateSocial_TOPG_Ann'>Telegram Channel.</a>" . PHP_EOL .
-        "🔹 Join our <a href='https://t.me/Tatesocial_TOPG_Global'>Telegram Group.</a>" . PHP_EOL;
+        "🔹 Join our <a href='https://t.me/SAFUSanta_Channel'>Telegram Channel.</a>" . PHP_EOL .
+        "🔹 Join our <a href='https://t.me/SAFUSanta'>Telegram Group.</a>" . PHP_EOL;
 
         $question = Question::create($message)
             ->addButtons([
@@ -132,8 +119,8 @@ class AirDrop9Conversation extends Conversation
         $teleName = $botUser->getFirstName().' '.$botUser->getLastName();
 
         $message = $teleName.', Now' . PHP_EOL .
-        '🔹 Follow us on Twitter, like, quote tweet pinned post. https://twitter.com/TatesocialTopg' . PHP_EOL . 
-        '🔹 Tag 5 friends on our twitter pinned post' . PHP_EOL .
+        'Like 3 tweets, Retweet pinned tweet, quote a tweet & comment something bullish about the project & tag 3 friends ' . PHP_EOL . 
+        "<a href='https://twitter.com/safusanta'>https://twitter.com/safusanta</a>" . PHP_EOL .
 
         "Then submit your Twitter profile link below the chat :" . PHP_EOL .
 
@@ -232,10 +219,9 @@ class AirDrop9Conversation extends Conversation
         $message = "🥳 Congratulations! We'll verify your social task" . PHP_EOL .
             PHP_EOL.
             "🙏 Thank you for participating in our airdrop. Please do not leave any of our social media platforms." . PHP_EOL .
-            "<a href='https://tate.social/'>https://tate.social/</a>" . PHP_EOL .
             PHP_EOL .
             'Your personal referral link:' . PHP_EOL .
-           'https://t.me/TateSocial_Airdrop_Bot?start=' . $refCode;
+           'https://t.me/SafusantaAirdropBot?start=' . $refCode;
 
         return $this->say($message, ['parse_mode' => 'HTML', 'disable_web_page_preview' => true]);
 

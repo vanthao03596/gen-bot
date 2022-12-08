@@ -47,7 +47,7 @@ class AirDrop9Conversation extends Conversation
 
             '👥To participate: quote tweet pinned post (10 points).' . PHP_EOL .
             '1.Join Telegram Group (Need to complete captcha):' . PHP_EOL .
-            "<a href='https://t.me/SAFUSanta'>https://t.me/SAFUSanta</a>" . PHP_EOL .
+            "<a href='https://t.me/+a-ONRndvZ9s1MmY9'>https://t.me/+a-ONRndvZ9s1MmY9</a>" . PHP_EOL .
             PHP_EOL .
             "2.Join Telegram Channel :" . PHP_EOL .
             "<a href='https://t.me/SAFUSanta_Channel'>https://t.me/SAFUSanta_Channel</a>" . PHP_EOL .
@@ -93,7 +93,7 @@ class AirDrop9Conversation extends Conversation
 
         $message = $teleName.', Now' . PHP_EOL .
         "🔹 Join our <a href='https://t.me/SAFUSanta_Channel'>Telegram Channel.</a>" . PHP_EOL .
-        "🔹 Join our <a href='https://t.me/SAFUSanta'>Telegram Group.</a>" . PHP_EOL;
+        "🔹 Join our <a href='https://t.me/+a-ONRndvZ9s1MmY9'>Telegram Group.</a>" . PHP_EOL;
 
         $question = Question::create($message)
             ->addButtons([

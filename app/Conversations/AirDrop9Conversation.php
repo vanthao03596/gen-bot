@@ -37,34 +37,28 @@ class AirDrop9Conversation extends Conversation
         $teleName = $botUser->getFirstName().' '.$botUser->getLastName();
 
         $message = 
-            '🎁Airdrop: <b>SAFU Santa (SSanta)</b>' . PHP_EOL .
-            PHP_EOL . 
-            '💰 Total Prize: 5000 $SSanta' . PHP_EOL .
-            '👨‍💼 Luckies Winner: Top 500 Winners' . PHP_EOL .
-            '👨‍💼 Top referrals : 5 NFTs' . PHP_EOL .
-            '📅Distribution: 10 days after airdrop end' . PHP_EOL .
+            '🎉 CBP FINANCE AIRDROP Campaign 🎉' . PHP_EOL .
+            'Just participate in our Airdrop and Get $15,000 $CBP' . PHP_EOL .
+            '📌 Task:         ✅  $10 worth of $CBP for 1000 random participants each.' . PHP_EOL .
+            PHP_EOL .
+            '👨‍👩‍👧 Referral:   ✅  $5000 worth of $CBP for top 50 referrers.' . PHP_EOL .
+            PHP_EOL .
+            "1️⃣ Join CBP Finance Telegram Group (10 points). <a href='https://t.me/cbp_finance'>Link</a>" . PHP_EOL .
+            "2️⃣ Follow CBP Finance on Twitter and Like, Cmt, retweet, Tag 3 friends in the pinned post (30 points). <a href='https://twitter.com/cbp_finance'>Link</a>" . PHP_EOL .
+            "3️⃣ Follow CBP Telegram Channel (10 points).  <a href='https://t.me/cbpfinance_ann'>Link</a>" . PHP_EOL .
+            "4️⃣ Enter your information to the airdrop bot." . PHP_EOL .
+            "5️⃣ Share your referral link (50 points)." . PHP_EOL .
             PHP_EOL .
 
-            '👥To participate: quote tweet pinned post (10 points).' . PHP_EOL .
-            '1.Join Telegram Group (Need to complete captcha):' . PHP_EOL .
-            "<a href='https://t.me/+a-ONRndvZ9s1MmY9'>https://t.me/+a-ONRndvZ9s1MmY9</a>" . PHP_EOL .
+            '✏️ Notes: Total airdrop pool is $15,000 worth of $CBP.' . PHP_EOL .
             PHP_EOL .
-            "2.Join Telegram Channel :" . PHP_EOL .
-            "<a href='https://t.me/SAFUSanta_Channel'>https://t.me/SAFUSanta_Channel</a>" . PHP_EOL .
-            PHP_EOL .
-            "3. Twitter : Like 3 tweets, Retweet pinned tweet, quote a tweet & comment something bullish about the project & tag 3 friends" . PHP_EOL .
-            "<a href='https://twitter.com/safusanta'>https://twitter.com/safusanta</a>" . PHP_EOL .
-            PHP_EOL .            
-
-            "4. Fill up your answer" . PHP_EOL .
-            PHP_EOL .
-
+            
             '🔗Airdrop Link:' . PHP_EOL .
-            "<a href='https://t.me/SafusantaAirdropBot'>https://t.me/SafusantaAirdropBot</a>" . PHP_EOL .
+            "<a href='https://t.me/CBPfinanceAirdropBot'>https://t.me/CBPfinanceAirdropBot</a>" . PHP_EOL .
             PHP_EOL .
 
             'Your personal referral link:' . PHP_EOL .
-            'https://t.me/SafusantaAirdropBot?start=' . $refCode . PHP_EOL;
+            'https://t.me/CBPfinanceAirdropBot?start=' . $refCode . PHP_EOL;
 
         $question = Question::create($message)
             ->addButtons([
@@ -92,8 +86,8 @@ class AirDrop9Conversation extends Conversation
         $teleName = $botUser->getFirstName().' '.$botUser->getLastName();
 
         $message = $teleName.', Now' . PHP_EOL .
-        "🔹 Join our <a href='https://t.me/SAFUSanta_Channel'>Telegram Channel.</a>" . PHP_EOL .
-        "🔹 Join our <a href='https://t.me/+a-ONRndvZ9s1MmY9'>Telegram Group.</a>" . PHP_EOL;
+        "🔹 Join our <a href='https://t.me/cbpfinance_ann'>Telegram Channel.</a>" . PHP_EOL .
+        "🔹 Join our <a href='https://t.me/cbp_finance'>Telegram Group.</a>" . PHP_EOL;
 
         $question = Question::create($message)
             ->addButtons([
@@ -121,8 +115,8 @@ class AirDrop9Conversation extends Conversation
         $teleName = $botUser->getFirstName().' '.$botUser->getLastName();
 
         $message = $teleName.', Now' . PHP_EOL .
-        'Like 3 tweets, Retweet pinned tweet, quote a tweet & comment something bullish about the project & tag 3 friends ' . PHP_EOL . 
-        "<a href='https://twitter.com/safusanta'>https://twitter.com/safusanta</a>" . PHP_EOL .
+        'Follow CBP Finance on Twitter and Like, Cmt, retweet, Tag 3 friends in the pinned post' . PHP_EOL . 
+        "<a href='https://twitter.com/cbp_finance'>https://twitter.com/cbp_finance</a>" . PHP_EOL .
 
         "Then submit your Twitter profile link below the chat :" . PHP_EOL .
 
@@ -223,7 +217,7 @@ class AirDrop9Conversation extends Conversation
             "🙏 Thank you for participating in our airdrop. Please do not leave any of our social media platforms." . PHP_EOL .
             PHP_EOL .
             'Your personal referral link:' . PHP_EOL .
-           'https://t.me/SafusantaAirdropBot?start=' . $refCode;
+           'https://t.me/CBPfinanceAirdropBot?start=' . $refCode;
 
         return $this->say($message, ['parse_mode' => 'HTML', 'disable_web_page_preview' => true]);
 
